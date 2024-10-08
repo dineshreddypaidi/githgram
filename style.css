@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar {
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #242938;
+}
+.navbar form{
+    max-width: 550px;
+}
+
+.search {
+    display: flex;
+}
+.search button {
+    background-color: aliceblue;
+    border-radius: 45%;
+}
+.user {
+    max-width: 600px;
+}
+.repos img {
+    border-radius: 10%;
+}
+@media (max-width: 650px) {
+    .navbar-brand img {
+      max-height: 40px;
+    }
+    .user-data {
+      text-align: center;
+    }
+}
+@media (max-width: 500px) {
+   .repos img {
+      height: 100px;
+      width: 130px;
+      border-radius: 5%;
+    }
+}
