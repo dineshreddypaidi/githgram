@@ -24,7 +24,6 @@ repos_con.classList.add("row");
 
 repos(user).then((data) => {
   if (data) {
-    console.log(data.length);
     for (const dt of data) {
       const repoElement = document.createElement("div");
       repoElement.classList.add("col-4", "mb-3", "repos");
